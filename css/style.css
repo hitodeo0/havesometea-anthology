@@ -405,9 +405,13 @@ ul.icons {
 	line-height: 1.5;	/*行間を狭くする*/
 }
 
+/*ボックス内のp要素*/
+.list-grid1 .list ul {
+	font-size: 0.85rem;	/*文字サイズを85%に*/
+}
 /*ボックス１個あたり*/
 .list-grid1 .list {
-	padding: 1rem;			/*ボックス内の余白。１文字分。*/
+	padding: 1.2rem;			/*ボックス内の余白。１文字分。*/
 	background: #fff;		/*背景色*/
 	color: #111;			/*文字色*/
     grid-template-rows: auto 1fr auto;	/*１つ目（この場合はfigure要素のサイズ）と「詳しくみる」ボタンの高さは自動に、２つ目（この場合はtextブロック））を残った幅で使う*/
@@ -784,13 +788,13 @@ td {
 }
 
 td {
-    padding-left: 2em;
+    padding-left: 1em;
     font-size: 80%;
     color: #555555;
 }
 
 th {
-    padding-left: 2em;
+    padding-left: 1.8em;
     min-width: 5em;
     font-size: 90%;
 }
