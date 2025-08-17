@@ -148,12 +148,12 @@ header {
 
 /*トップページの縦書きロゴ*/
 .home #logo img {
-    width: 50px;	/*幅*/
+    width: 100%;	/*幅*/
 }
 
 /*トップページのロゴ（英語ページ用）*/
 .home.en #logo img {
-    width: 200px;	/*幅*/
+    width: 100%;	/*幅*/
 }
 
 /*トップページ以外のロゴ*/
@@ -797,4 +797,18 @@ th {
     padding-left: 1.8em;
     min-width: 5em;
     font-size: 90%;
+}
+
+.authors {
+	text-align: center;
+}
+.authors > table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.authors td {
+	font-size: 100%;
+}
+.authors th {
+	font-size: 100%;
 }
